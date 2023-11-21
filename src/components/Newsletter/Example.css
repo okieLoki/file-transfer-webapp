@@ -1,0 +1,68 @@
+/* Example.css */
+.example-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #56cfe1;
+
+  color: #2c2b2b;
+}
+
+.example-content {
+  width: 100%;
+  max-width: 72.1875rem;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+.example-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.example-left {
+  width: 100%;
+  max-width: 38rem;
+}
+
+.example-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #2c2b2b;
+}
+
+.example-text {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #2c2b2b;
+}
+
+.example-form {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.example-input {
+  flex-grow: 1;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #000; /* Change this to black */
+  color: #fff;
+}
+
+.example-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #4c1d95;
+  color: #fff;
+  cursor: pointer;
+}
