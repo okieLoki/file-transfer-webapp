@@ -66,7 +66,7 @@ const DropFileInput = (props) => {
     const formData = new FormData();
     formData.append("myfile", file);
     axios
-      .post("https://ill-erin-angler-tux.cyclic.app/api/files", formData, {
+      .post("https://backend-filetransfer.onrender.com/api/files", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },

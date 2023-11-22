@@ -36,7 +36,7 @@ const Email = ({ downloadLink }) => {
     const data = { uuid, emailTo, emailFrom };
     try {
       const response = await axios.post(
-        "https://ill-erin-angler-tux.cyclic.app/api/files/send",
+        "https://backend-filetransfer.onrender.com/api/files/send",
         data
       );
       if (response.data.success) {
